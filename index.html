@@ -1,156 +1,14 @@
-
-ค้นหาแชท
-คลัง
-Notebook ใหม่
-วิธีสร้างเว็บไซต์ดาวน์โหลดโปรแกรมของตัวเอง
-วิธีลง Windows 11 ด้วยแฟลชไดรฟ์เดียว
-ลบระบบย่อตัว MovementController
-คุณสมบัติและเส้นทางกรรมการมวย
-ผู้สร้างแมพ Da Hood
-ขอรูปปกเกม CS2
-สคริปต์โลโก้เปิดตัว DANGHOOD
-แก้ไขสคริปต์ระบบอุ้มตัวละคร Roblox
-บันทึกโค้ดปืนลูกซอง Roblox
-เปลี่ยนระบบวิ่งจากกดสลับเป็นกดค้าง
-สคริปต์ระบบวิ่งของ Roblox
-สคริปต์ระบบจัดของ Roblox
-วิธีเปิดแมพ Roblox ให้เล่นได้ทุกคน
-สคริปต์ทดสอบระบบยิงปืน (Dummy วิ่งกระโดด)
-ฟิสิกส์เบื้องหลัง Speed Glitch ใน Da Hood
-ระบบปืนและแอนิเมชันรีโหลด
-จัดระเบียบและทำความสะอาดโค้ด Lua
-แก้ไขปัญหาตัวละครไม่ Ragdoll กลางอากาศ
-วิเคราะห์สไตล์การต่อสู้ ชาร์ล โอลิเวียร่า
-แก้ไขบั๊กปุ่มล็อกเป้ามือถือเมื่อเกิดใหม่
-วิธีทำระบบเล็งและกล้องเยื้องไหล่ใน Roblox
-สคริปต์รันแอนิเมชัน Roblox 5 รอบ
-วิธีการตั้งชื่อตัวแปร WaitForCooldown
-การทำงานของบอทดูดอนิเมชัน Roblox
-สคริปต์ Lua เช็คค่า Tool บน Executor
-เช็กอาการเมาส์ VXE R1 ตกพื้น
-ไขข้อสงสัย: การครอบแก้วช่วยอะไรบ้าง
-ตรวจสอบสคริปต์ KO Da Hood
-อัปเดตระบบปืนเก่าตาม Revolver
-สร้างระบบวิ่งและกระโดดใน Roblox
-สั่งสร้างอินโฟกราฟิกภูมิปัญญาไทย
-วิธีดึงและแปลงแอนิเมชันจากแมพอื่นใน Roblox
-แหล่งหาโมเดลระบบปืน Da Hood
-การสนทนากับ Gemini
-เรามีโปรแกรมของเราแล้ว จะทำเว็บของเราเองเพื่อเอาไว้โหลดโปรแกรมยังไง
-
-การสร้างเว็บไซต์สำหรับให้ผู้ใช้งานดาวน์โหลดโปรแกรมของคุณเอง เป็นขั้นตอนที่ดีมากในการสร้างแบรนด์และช่องทางแจกจ่ายที่เป็นทางการครับ โดยแบ่งขั้นตอนการทำออกเป็น 4 ส่วนหลัก ๆ ดังนี้ครับ:
-
-1. เตรียมสิ่งที่ต้องมี (Prerequisites)
-ไฟล์โปรแกรม (Installer / Executable): เช่น ไฟล์ .exe, .msi (สำหรับ Windows), .dmg (สำหรับ macOS) หรือไฟล์ .zip
-
-โดเมนเว็บไซต์ (Domain Name): ชื่อเว็บไซต์ของคุณ (เช่น mycoolprogram.com) สามารถซื้อได้จากผู้ให้บริการโดเมนทั่วไป เช่น Namecheap, GoDaddy หรือ Hostinger
-
-พื้นที่โฮสติ้ง (Web Hosting / Cloud Storage): สำหรับเก็บหน้าเว็บไซต์ และที่สำคัญคือ ที่เก็บไฟล์โปรแกรม
-
-หากโปรแกรมมีขนาดใหญ่ แนะนำให้ใช้บริการ Cloud Storage แยกต่างหาก เช่น AWS S3, Google Cloud Storage, Cloudflare R2 หรือ GitHub Releases (สำหรับโปรแกรม Open Source) เพื่อประหยัดแบนด์วิดท์และทำให้โหลดเร็วขึ้น
-
-2. ออกแบบและสร้างหน้าเว็บไซต์ (Web Development)
-คุณสามารถเลือกวิธีทำเว็บได้ตามความถนัด:
-
-วิธีง่ายที่สุด (ไม่ต้องเขียนโค้ด):
-
-ใช้ Website Builder เช่น Wix, Squarespace, Webflow หรือ WordPress
-
-เหมาะสำหรับทำเว็บหน้าเดียว (Landing Page) สวย ๆ มีปุ่มดาวน์โหลดเด่นชัด
-
-วิธีแบบนักพัฒนา (เขียนโค้ดเอง):
-
-ใช้ HTML / CSS / JavaScript ร่วมกับ CSS Framework เช่น Tailwind CSS หรือ Bootstrap เพื่อความรวดเร็ว
-
-อัปโหลดขึ้นโฮสติ้งฟรีสำหรับ Static Site เช่น GitHub Pages, Vercel หรือ Netlify (เหมาะมากสำหรับโปรแกรมทั่วไปเพราะทำง่ายและฟรี)
-
-องค์ประกอบสำคัญที่ควรมีในหน้าเว็บดาวน์โหลด:
-
-Hero Section (ส่วนหัว): โลโก้โปรแกรม, สโลแกนสั้น ๆ, และ ปุ่มดาวน์โหลดหลัก (Download Button) ที่เห็นชัดเจนทันทีที่เข้าเว็บ
-
-Screenshots / Preview: รูปภาพตัวอย่างหน้าตาโปรแกรม (UI) หรือวิดีโอสั้น ๆ เพื่อให้ผู้ใช้เห็นภาพ
-
-Key Features: จุดเด่นของโปรแกรมว่าช่วยแก้ปัญหาอะไรได้บ้าง
-
-System Requirements: สเปคคอมพิวเตอร์ที่รองรับ (เช่น รองรับ Windows 10/11 ขึ้นไป, พื้นที่ว่างที่ต้องการ)
-
-Release Notes / Version History: บอกเวอร์ชันปัจจุบัน วันที่อัปเดต และมีประวัติการแก้ไข เพื่อความน่าเชื่อถือ
-
-3. การจัดการลิงก์ดาวน์โหลดและความปลอดภัย (Important!)
-Direct Download Link: ปุ่มดาวน์โหลดควรลิงก์ตรงไปยังไฟล์ติดตั้ง เพื่อให้ผู้ใช้กดแล้วดาวน์โหลดได้ทันที
-
-การตรวจสอบความปลอดภัย (Code Signing & Antivirus):
-
-โปรแกรมในปัจจุบันมักจะถูก Windows Defender หรือ Browser (เช่น Chrome, Edge) แจ้งเตือนว่าเป็น "ไฟล์ที่ไม่รู้จัก" (Unknown Publisher)
-
-หากต้องการลดปัญหานี้และสร้างความน่าเชื่อถือในระยะยาว อาจจะต้องซื้อ Code Signing Certificate มาเซ็นชื่อกำกับตัวโปรแกรม
-
-ในช่วงแรกที่ยังไม่ได้ซื้อ ให้แนะนำผู้ใช้ว่าหากขึ้นเตือน ให้กด "Keep" หรือ "Run anyway" พร้อมกับบอกวิธีตรวจสอบ (เช่น การแนบค่า SHA-256 Hash ไว้ที่หน้าเว็บ เพื่อให้ผู้ใช้เช็คว่าไฟล์ไม่ถูกดัดแปลง)
-
-4. โปรโมทและเผยแพร่
-แชร์ลิงก์เว็บไซต์ของคุณไปยังคอมมูนิตี้ที่ตรงกับกลุ่มเป้าหมาย (เช่น Facebook Groups, Reddit, Pantip หรือกลุ่มเฉพาะทางที่โปรแกรมของคุณไปช่วยแก้ปัญหา)
-
-ทำคู่มือการใช้งานเบื้องต้น (Documentation / FAQ) ไว้บนเว็บ เพื่อช่วยลดภาระในการตอบคำถามซ้ำ ๆ
-
-หากคุณสนใจวิธีทำแบบไหนเป็นพิเศษ (เช่น อยากเขียนโค้ดเอง, อยากใช้เครื่องมือฟรี, หรืออยากรู้วิธีทำปุ่มดาวน์โหลด) สามารถบอกเพิ่มเติมได้เลยนะครับ!
-
-ต้องทำไงก่อน
-
-เริ่มต้นด้วยการ เตรียมไฟล์โปรแกรมให้พร้อมแจกจ่าย และ เลือกวิธีสร้างเว็บที่ง่ายที่สุด โดยทำตามขั้นตอนนี้ก่อนครับ:
-
-เตรียมไฟล์ติดตั้ง (.exe / .zip): ตรวจสอบว่าโปรแกรมของคุณใช้งานได้ปกติ และรวมไฟล์ที่จำเป็นทั้งหมดให้อยู่ในรูปแบบไฟล์ติดตั้งเดียวเพื่อให้ผู้ใช้ง่ายต่อการดาวน์โหลด
-
-เลือกโฮสต์เก็บไฟล์ฟรี (แนะนำ GitHub Releases): นำไฟล์โปรแกรมไปอัปโหลดไว้ที่ GitHub Releases หรือใช้ Google Drive/OneDrive (กรณีไฟล์เล็ก) เพื่อเอาลิงก์สำหรับดาวน์โหลดมาใช้ก่อน โดยไม่ต้องเสียเงินเช่าโฮสติ้งไฟล์
-
-สร้างหน้าเว็บแบบฟรีและเร็วที่สุด (แนะนำ Vercel หรือ Netlify):
-
-เขียนหน้าเว็บด้วย HTML/CSS ง่าย ๆ 1 หน้า (หรือใช้เทมเพลต Landing Page ฟรีที่มีให้โหลดทั่วไป)
-
-ใส่ข้อมูลสำคัญ ได้แก่ ชื่อโปรแกรม, รูปภาพตัวอย่าง, และ ปุ่มดาวน์โหลด ที่ลิงก์ตรงไปยังไฟล์ที่คุณอัปโหลดไว้ในข้อที่ 2
-
-นำโค้ดเว็บไปฝากไว้บน GitHub แล้วเชื่อมกับ Vercel หรือ Netlify เพื่อเปิดเว็บไซต์ใช้งานได้ทันทีแบบฟรี ๆ โดยจะได้ URL เช่น myprogram.vercel.app มาใช้งาน
-
-คุณต้องการโฟกัสที่ขั้นตอนไหนก่อนเป็นพิเศษ ระหว่างการเตรียมไฟล์โปรแกรม หรือการลงมือสร้างหน้าเว็บไซต์ครับ?
-
-ขอสคริปหน้าเว็บสวยๆสัสๆ แบบเหมือนหน้าเว็บโหลดโปรแกรมน่าเชื่อถือ และโปรแกรมผมมันอยู่ใน rarข้างในคือexe
-
-นี่คือสคริปต์หน้าเว็บไซต์ดาวน์โหลดโปรแกรม ดีไซน์แบบ Modern Dark Theme สไตล์ Tech Startup ระดับโลก (มีความเป็นมืออาชีพ ล้ำสมัย และดูน่าเชื่อถือสุดๆ) โดยผมได้ออกแบบกล่องดาวน์โหลดพร้อมระบุรายละเอียดและ คู่มือขั้นตอนการเปิดใช้งานไฟล์ .rar ด้านในมี .exe ให้ผู้ใช้อ่านเข้าใจง่ายและลดปัญหาการกดไม่ถูกวิธีครับ
-
-Your HTML file is ready
-
-ไอคอน HTML
-index
- HTML 
-วิธีนำโค้ดไปใช้งานจริง:
-กดดาวน์โหลดไฟล์ index.html ด้านบนนี้เก็บไว้ในเครื่อง
-
-เปิดไฟล์ด้วย Text Editor (เช่น Notepad, VS Code) แล้วแก้ชื่อโปรแกรม หรือข้อความตามต้องการ
-
-จุดสำคัญ: มองหาบรรทัดนี้ในโค้ด:
-
-HTML
-<a href="YOUR_RAR_FILE_URL_HERE.rar" class="btn-download">
-ให้เปลี่ยนคำว่า YOUR_RAR_FILE_URL_HERE.rar เป็น ลิงก์ดาวน์โหลดไฟล์ RAR ของคุณ (เช่น ลิงก์จาก GitHub Releases, Google Drive, หรืออัปโหลดไฟล์ขึ้นโฮสต์เว็บ)
-
-นำไฟล์ index.html นี้ไปอัปโหลดขึ้น Vercel, Netlify หรือ GitHub Pages ฟรี! คุณจะได้หน้าเว็บโหลดโปรแกรมสุดเท่ไปแชร์ให้คนอื่นใช้งานทันทีครับ
-
-
-
-
-Gemini เป็น AI และอาจทำผิดพลาดได้
-
-กำลังวิเคราะห์
 <!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextGen Tool - โปรแกรมอัจฉริยะสำหรับคุณ</title>
+    <title>WinForgeClean - ดาวน์โหลดโปรแกรมติดตั้งซอฟต์แวร์ปลอดภัย</title>
     <!-- Google Fonts: Inter & Outfit -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <!-- FontAwesome for icons -->
+    <!-- FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -211,7 +69,7 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
             display: flex;
             align-items: center;
             gap: 12px;
-            font-size: 1.25rem;
+            font-size: 1.35rem;
             font-weight: 700;
             color: var(--text-main);
             text-decoration: none;
@@ -219,17 +77,20 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
 
         .logo i {
             color: var(--primary);
-            font-size: 1.5rem;
+            font-size: 1.6rem;
         }
 
         .nav-badge {
-            background: rgba(99, 102, 241, 0.1);
-            color: var(--accent);
-            border: 1px solid rgba(99, 102, 241, 0.2);
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+            border: 1px solid rgba(16, 185, 129, 0.2);
             padding: 6px 14px;
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         /* Hero Section */
@@ -271,13 +132,13 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
         .hero p {
             font-size: 1.15rem;
             color: var(--text-muted);
-            max-width: 650px;
+            max-width: 680px;
             margin: 0 auto 36px auto;
         }
 
         /* Download Box Container */
         .download-box-wrapper {
-            max-width: 500px;
+            max-width: 520px;
             margin: 0 auto 60px auto;
             padding: 0 20px;
         }
@@ -286,7 +147,7 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
             background: var(--surface-color);
             border: 1px solid var(--surface-border);
             border-radius: 20px;
-            padding: 30px;
+            padding: 32px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
             text-align: center;
             position: relative;
@@ -313,9 +174,9 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
             color: white;
             text-decoration: none;
             font-family: 'Outfit', sans-serif;
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             font-weight: 600;
-            padding: 16px 24px;
+            padding: 18px 24px;
             border-radius: 12px;
             transition: all 0.3s ease;
             box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
@@ -343,7 +204,7 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
             gap: 6px;
         }
 
-        /* Instructions Alert Box */
+        /* Instructions Box */
         .instruction-box {
             background: rgba(16, 185, 129, 0.05);
             border: 1px solid rgba(16, 185, 129, 0.2);
@@ -370,78 +231,6 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
 
         .instruction-box li {
             margin-bottom: 4px;
-        }
-
-        /* Preview Mockup */
-        .preview-container {
-            max-width: 900px;
-            margin: 0 auto 80px auto;
-            padding: 0 20px;
-        }
-
-        .window-mockup {
-            background: var(--surface-color);
-            border: 1px solid var(--surface-border);
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-        }
-
-        .window-header {
-            background: rgba(255, 255, 255, 0.03);
-            padding: 12px 16px;
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid var(--surface-border);
-        }
-
-        .window-dots {
-            display: flex;
-            gap: 8px;
-        }
-
-        .dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-
-        .dot-red { background: #ef4444; }
-        .dot-yellow { background: #f59e0b; }
-        .dot-green { background: #10b981; }
-
-        .window-title {
-            margin: 0 auto;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            font-weight: 500;
-        }
-
-        .window-body {
-            padding: 40px;
-            text-align: center;
-            background: radial-gradient(circle at center, rgba(31, 41, 55, 0.4) 0%, rgba(17, 24, 39, 1) 100%);
-            min-height: 350px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .window-body i {
-            font-size: 4rem;
-            color: var(--primary);
-            margin-bottom: 20px;
-        }
-
-        .window-body h3 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-
-        .window-body p {
-            color: var(--text-muted);
-            font-size: 0.95rem;
         }
 
         /* Features Grid */
@@ -514,92 +303,70 @@ Gemini เป็น AI และอาจทำผิดพลาดได้
     <!-- Navigation -->
     <nav>
         <a href="#" class="logo">
-            <i class="fa-solid fa-cube"></i>
-            NextGen Tool
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            WinForgeClean
         </a>
         <div class="nav-badge">
-            <i class="fa-solid fa-shield-halved"></i> ปลอดภัย 100%
+            <i class="fa-solid fa-shield-halved"></i> ปลอดภัยและเป็นทางการ
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-badge">
-            <i class="fa-solid fa-sparkles"></i> เวอร์ชันล่าสุด v1.0 Released
+            <i class="fa-solid fa-sparkles"></i> WinForgeClean Setup v1.0
         </div>
-        <h1>เพิ่มประสิทธิภาพการทำงานของคุณด้วย <span>NextGen Tool</span></h1>
-        <p>โปรแกรมอัจฉริยะที่ถูกออกแบบมาเพื่อช่วยให้งานของคุณง่ายขึ้น เร็วขึ้น และจัดการทุกอย่างได้จบในที่เดียว</p>
+        <h1>โหลดโปรแกรมได้อย่าง <span>ปลอดภัย ไร้กังวล</span> ไม่ต้องหาเอง</h1>
+        <p>ศูนย์รวมการติดตั้งโปรแกรมต่าง ๆ อย่างเป็นทางการ ให้คุณดาวน์โหลดซอฟต์แวร์ที่ถูกต้องและปลอดภัย 100% โดยไม่ต้องเสี่ยงกับเว็บอันตราย</p>
     </section>
 
     <!-- Download Card Box -->
     <div class="download-box-wrapper">
         <div class="download-card">
-            <!-- 
-                คำแนะนำ: แทนที่ลิงก์ใน href="#" ด้วยลิงก์ดาวน์โหลดไฟล์ .rar ของคุณ 
-                เช่น ลิงก์จาก GitHub Releases, Google Drive, หรือลิงก์ตรงไปยังไฟล์ 
-            -->
-            <a href="YOUR_RAR_FILE_URL_HERE.rar" class="btn-download">
-                <i class="fa-solid fa-download"></i> ดาวน์โหลดโปรแกรม (RAR)
+            <!-- ลิงก์ดาวน์โหลดตรงไปยัง Google Drive -->
+            <a href="https://drive.google.com/uc?export=download&id=1SKdhqJZ_yamVKJdOv7qbAFpX3OA1Tixk" class="btn-download" download>
+                <i class="fa-solid fa-download"></i> ดาวน์โหลด WinForgeClean (RAR)
             </a>
             
             <div class="file-meta">
-                <span><i class="fa-solid fa-file-zipper"></i> ไฟล์: .RAR (ด้านในมี .EXE)</span>
-                <span><i class="fa-solid fa-hard-drive"></i> ขนาด: ~15 MB</span>
+                <span><i class="fa-solid fa-file-zipper"></i> ไฟล์: WinForgeCleanSetup.rar</span>
+                <span><i class="fa-solid fa-desktop"></i> ด้านใน: .EXE</span>
             </div>
 
-            <!-- วิธีใช้งานไฟล์ RAR -->
+            <!-- คำแนะนำการติดตั้ง -->
             <div class="instruction-box">
-                <h4><i class="fa-solid fa-circle-info"></i> วิธีเริ่มต้นใช้งาน</h4>
+                <h4><i class="fa-solid fa-circle-check"></i> ขั้นตอนการเปิดใช้งาน</h4>
                 <ol>
-                    <li>กดปุ่มดาวน์โหลดไฟล์ .rar ด้านบน</li>
-                    <li>แตกไฟล์ (Extract) ออกมาจะพบไฟล์โปรแกรม .exe</li>
-                    <li>ดับเบิลคลิกเปิดไฟล์ .exe เพื่อใช้งานได้ทันที</li>
+                    <li>กดปุ่มดาวน์โหลดด้านบนเพื่อรับไฟล์ WinForgeCleanSetup.rar</li>
+                    <li>แตกไฟล์ (Extract) จะได้รับไฟล์โปรแกรมติดตั้ง `.exe`</li>
+                    <li>ดับเบิลคลิกเปิดไฟล์ `.exe` เพื่อเริ่มดาวน์โหลดโปรแกรมต่าง ๆ ได้ทันที</li>
                 </ol>
             </div>
         </div>
     </div>
 
-    <!-- Preview Mockup Section -->
-    <section class="preview-container">
-        <div class="window-mockup">
-            <div class="window-header">
-                <div class="window-dots">
-                    <div class="dot dot-red"></div>
-                    <div class="dot dot-yellow"></div>
-                    <div class="dot dot-green"></div>
-                </div>
-                <div class="window-title">NextGen Tool - Interface Preview</div>
-            </div>
-            <div class="window-body">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>หน้าตาโปรแกรมใช้งานง่าย ไม่ซับซ้อน</h3>
-                <p>ออกแบบ UI มาให้เข้าใจได้ทันทีแม้ใช้งานครั้งแรก</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Features Section -->
     <section class="features">
         <div class="feature-card">
-            <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
-            <h3>ทำงานรวดเร็ว</h3>
-            <p>ประมวลผลไว ไม่กินทรัพยากรเครื่องคอมพิวเตอร์ของคุณ ใช้งานได้อย่างลื่นไหล</p>
-        </div>
-        <div class="feature-card">
             <div class="feature-icon"><i class="fa-solid fa-shield-virus"></i></div>
-            <h3>ปลอดภัยไร้ไวรัส</h3>
-            <p>ผ่านการตรวจสอบความปลอดภัยเรียบร้อย ปราศจากมัลแวร์ มั่นใจได้ 100%</p>
+            <h3>ปลอดภัย 100%</h3>
+            <p>รวมโปรแกรมจากแหล่งออฟฟิเชียล ปราศจากมัลแวร์ ไวรัส และแอดแวร์แอบแฝง</p>
         </div>
         <div class="feature-card">
-            <div class="feature-icon"><i class="fa-solid fa-rotate"></i></div>
-            <h3>อัปเดตต่อเนื่อง</h3>
-            <p>เราพัฒนาฟีเจอร์ใหม่ ๆ และปรับปรุงระบบอย่างสม่ำเสมอเพื่อให้คุณใช้งานได้ดีที่สุด</p>
+            <div class="feature-icon"><i class="fa-solid fa-magnifying-glass-slash"></i></div>
+            <h3>ไม่ต้องเสียเวลาหาเอง</h3>
+            <p>รวบรวมโปรแกรมจำเป็นไว้ให้จบในที่เดียว ไม่ต้องเสี่ยงไปค้นหาจากเว็บที่ไม่น่าเชื่อถือ</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>ติดตั้งรวดเร็ว</h3>
+            <p>ใช้งานง่าย ระบบจัดการให้เสร็จสรรพ ช่วยประหยัดเวลาการลงโปรแกรมใหม่ได้หลายเท่า</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 NextGen Tool. สงวนลิขสิทธิ์ทุกประการ</p>
+        <p>&copy; 2026 WinForgeClean. All rights reserved.</p>
     </footer>
 
 </body>
